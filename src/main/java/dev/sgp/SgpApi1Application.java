@@ -1,4 +1,4 @@
-package com.example.sgpapi1;
+package dev.sgp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
