@@ -3,6 +3,7 @@ package dev.sgp.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -16,6 +17,7 @@ import dev.sgp.entite.Collaborateur;
 import dev.sgp.repository.CollaborateurRepository;
 import dev.sgp.repository.DepartementRepository;
 
+@CrossOrigin
 @RestController
 @RequestMapping("api/collaborateur")
 public class CollaborateurController {
