@@ -13,9 +13,9 @@ public class Departements {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "ID")
+	@Column(name = "id")
 	private Integer id;
-	@Column(name = "NOM")
+	@Column(name = "nom")
 	private String nom;
 
 	public Departements() {
