@@ -15,15 +15,15 @@ public class Collaborateur {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "ID")
+	@Column(name = "id")
 	Integer id;
 	@ManyToOne
 	Departements departements;
-	@Column(name = "MATRICULE")
+	@Column(name = "matricule")
 	String matricule;
-	@Column(name = "NOM")
+	@Column(name = "nom")
 	String nom;
-	@Column(name = "PRENOM")
+	@Column(name = "prenom")
 	String prenom;
 	@Embedded
 	Banque banque;
